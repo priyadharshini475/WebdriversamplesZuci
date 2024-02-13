@@ -72,6 +72,7 @@ public class Sample1 {
 	     srcBox.sendKeys("Selenium Tutorial");
 	     srcBox.sendKeys(Keys.ENTER);
 	     Assert.assertEquals(driver.getTitle(),"Selenium Tutoria - Google Search");
+	  System.out.println("Selenium-Selenium");
 	     
   }
  // @Test
