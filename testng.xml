@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="SampleSuite" thread-count="2" parallel="class">
+<suite name="SampleSuite" thread-count="2" >
 	<test  name="ModuleOneTest">
 	 <classes>
-      <class name="testScripts.Alertmsg.java"/>
+      <class name="testScripts.Alertmsg"/>
       
       
       </classes>
