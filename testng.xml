@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="SampleSuite" thread-count="2" >
+<suite name="SampleSuite"  >
 	<test  name="ModuleOneTest">
 	 <classes>
       <class name="parallelScripts.SampleOneTest"/>
