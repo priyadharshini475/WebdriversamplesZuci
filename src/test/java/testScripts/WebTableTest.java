@@ -25,5 +25,7 @@ public class WebTableTest {
 	   for(WebElement name:item) {
 		   System.out.println(name.getText());
 	   }
+	   String strLocation=driver.findElement(By.xpath("//td[text()='Wagner']//following-sibling::td][2]")).getText();
+	   System.out.println(strLocation);
   }
 }
